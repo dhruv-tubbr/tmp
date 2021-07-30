@@ -1221,7 +1221,7 @@ section {
 --------------------------------------------------------------*/
 .team .member {
   margin-bottom: 20px;
-  overflow: hidden;
+  /* overflow: hidden; */
   border-radius: 5px;
   background: #fff;
 }
@@ -1235,8 +1235,10 @@ section {
   position: absolute;
   top:0;
   bottom: 0;
+  left: 0;
   padding: 0 10px;
   opacity: 0;
+  text-align: center;
   transition: ease-in-out 0.3s;
   display: flex;
   align-items: center;
