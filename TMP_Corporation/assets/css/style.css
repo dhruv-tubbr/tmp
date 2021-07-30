@@ -1233,34 +1233,17 @@ section {
 
 .team .member .social {
   position: absolute;
-  left: 0;
-  bottom: 30px;
-  right: 0;
+  top:0;
+  bottom: 0;
+  padding: 0 10px;
   opacity: 0;
   transition: ease-in-out 0.3s;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: rgba(0, 102, 178, 0.8);
 }
 
-.team .member .social a {
-  transition: color 0.3s;
-  color: #111111;
-  margin: 0 3px;
-  border-radius: 50px;
-  width: 36px;
-  height: 36px;
-  background: var(--clr-blue);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  transition: ease-in-out 0.3s;
-  color: #fff;
-}
-
-.team .member .social a:hover {
-  background: #111111;
-}
 
 .team .member .social i {
   font-size: 18px;
