@@ -6,19 +6,27 @@ main{
     min-width: 10%;
 }
 
+.section-title{
+    padding-bottom: 0px !important;
+}
+h2{
+    margin-bottom: 0px !important;
+}
+
+
 table{
     display: inline-block;
 }
 .left{
     font-family: "Poppins", sans-serif;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: var(--clr-blue);
     padding: 1rem;
 }
 
 .right{
     font-family: "Poppins", sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #444444;
     padding: 1rem;
 }
@@ -46,3 +54,4 @@ table{
     .logo_section{
         display: none;
   }
+}
