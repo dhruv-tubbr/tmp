@@ -2,11 +2,13 @@ main{
     min-height: 60vh;
     /* margin-top: 15vh; */
     margin: 15vh auto;
+    position: relative;
+    min-width: 10%;
 }
 
 table{
     display: inline-block;
-
+    width: 40%;
 }
 .left{
     font-family: "Poppins", sans-serif;
@@ -21,3 +23,27 @@ table{
     color: #444444;
     padding: 1rem;
 }
+
+.logo_section{
+    font-family: "Roboto","sans-serif", sans-serif;
+    color: #FFF;
+    position: relative;
+}
+
+.logo_section img{
+    position: absolute;
+    min-width: 40vw;
+    top: 0;
+    right: 0;
+}
+
+.logo_section p{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .logo_section{
+        display: none;
+  }
