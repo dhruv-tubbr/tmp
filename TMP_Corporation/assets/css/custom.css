@@ -42,7 +42,7 @@ form p{
     cursor: pointer;
   }
   
-#service2 .nav-link.active,.nav-link.active:hover{
+#service2 .nav-link.active{
     background: var(--clr-blue);
   color: #fff;
   border-color: var(--clr-blue);
