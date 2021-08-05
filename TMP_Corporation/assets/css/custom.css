@@ -25,11 +25,47 @@ form p{
     vertical-align: middle;
 }
 
+#service2{
+    background-color: #1b1b1b;
+    color: #fff;
+}
 
+#service2 .nav-link {
+    border: 1px solid var(--clr-lightblue);
+    padding: 15px;
+    transition: 0.3s;
+    color:var(--clr-lightblue);
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+#service2 .nav-link.active,.nav-link.active:hover{
+    background: var(--clr-blue);
+  color: #fff;
+  border-color: var(--clr-blue);
+}  
+
+#service2 .nav-link:hover{
+  color: #fff;
+  border-color: #fff;
+}
+  .tabs .nav-link i {
+    padding-right: 15px;
+    font-size: 48px;
+  }
+  
+  .tabs .nav-link h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+  }
 
 #meet-partner-btn{
     padding: 8px 30px 9px 30px;
-    color: #fff;
+    color: #1b1b1b;
     border-radius: 50px;
     transition: 0.3s;
     text-transform: uppercase;
@@ -42,9 +78,27 @@ form p{
 
 #meet-partner-btn:hover{
     background-color: var(--clr-lightblue);
+    color: #fff;
 }
 :root{
     --clr-blue: #0066b2;
     --clr-lightblue: #0066b2;
     --clr-bluealt: #0a1172;
 }
+
+
+.portfolio-container{
+    display: flex;
+    justify-content: centre;  
+}
+
+.portfolio-item{
+    width: 30%;
+}
+
+@media screen and (max-width: 768px) {
+    .portfolio-item{
+        width: 80%;
+    }
+  }
+

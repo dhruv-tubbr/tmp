@@ -347,7 +347,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center no-repeat;
+  background: url("../img/tabs-1.jpg") top center no-repeat;
   background-size: cover;
   position: relative;
   padding-top: 82px;
@@ -465,7 +465,7 @@ section {
   background: #1b1b1b;
   position: absolute;
   bottom: 60px;
-  top: 60px;
+  top: 0px;
   left: 0;
   right: 0;
   /* transform: skewY(-3deg); */
@@ -814,6 +814,17 @@ section {
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
+  /* border:1px solid  #111; */
+  border-radius: 10px;
+  padding: 1rem;
+  background-color: rgb(231, 241, 255);
+  box-shadow: 11px 9px 12px rgb(142 159 161);
+
+  margin: 10px 15px 10px 15px;
+}
+
+.portfolio-item img{
+  width: 100px;
 }
 
 .portfolio #portfolio-flters {
@@ -853,7 +864,7 @@ section {
   z-index: 1;
   background: rgba(17, 17, 17, 0.6);
 }
-
+/* 
 .portfolio .portfolio-wrap::before {
   content: "";
   background: rgba(17, 17, 17, 0.6);
@@ -865,7 +876,7 @@ section {
   transition: all ease-in-out 0.3s;
   z-index: 2;
   opacity: 0;
-}
+} */
 
 .portfolio .portfolio-wrap img {
   transition: all ease-in-out 0.3s;
