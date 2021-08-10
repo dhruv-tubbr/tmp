@@ -1,9 +1,4 @@
-/**
-* Template Name: Presento - v3.3.0
-* Template URL: https://bootstrapmade.com/presento-bootstrap-corporate-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 (function() {
   "use strict";
 
@@ -194,7 +189,7 @@
   });
 
   /**
-   * Porfolio isotope and filter
+   * PorTfolio isotope and filter
    */
   window.addEventListener('load', () => {
     let portfolioContainer = select('.portfolio-container');
@@ -205,6 +200,14 @@
       });
 
       let portfolioFilters = select('#portfolio-flters li', true);
+
+        portfolioIsotope.arrange({
+          filter: '.filter-education'
+        });
+        portfolioIsotope.on('arrangeComplete', function() {
+          AOS.refresh()
+        });
+      
 
       on('click', '#portfolio-flters li', function(e) {
         e.preventDefault();

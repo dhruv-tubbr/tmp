@@ -52,8 +52,22 @@
           <li><a class="nav-link scrollto active" href="#">Home</a></li>
           <li><a class="nav-link scrollto" href="#ikigai">Ikigai</a></li>
           <li><a class="nav-link scrollto" href="#sector-experience">Sector Experience</a></li>
-          <li><a class="nav-link scrollto" href="#dx-solutions">DX Solutions</a></li>
-          <li><a class="nav-link" href="about.html">About Us</a></li>
+          <li class="dropdown"><a href="#dx-solutions"><span>DX Solutions</span></a>
+            <ul>
+              
+              <li><a href="#future_ready">Be Future Ready</a></li>
+              <li><a href="#service2">Enter Japan Market</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="./about.html"><span>About Us</span></a>
+            <ul>
+              <li><a href="./about.html#team">TMP's Team</a></li>
+              <li><a href="./about.html#about">TMP's Story</a></li>
+              <li><a href="./about.html#mission">TMP's Mission</a></li>
+              <li><a href="./about.html#advantage">TMP's Advantage</a></li>
+              <li><a href="./company_profile.html">Company Profile</a></li>
+            </ul>
+          </li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
           <li class="dropdown"><a href="#"><span>EN</span> <i class='bx bx-world'></i></a>
             <ul>
@@ -61,6 +75,7 @@
               <li><a href="#">日本語 - Japanese</a></li>
             </ul>
           </li>
+          
 
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -88,27 +103,6 @@
 
   <main id="main">
 
-    <!-- ======= Clients Section ======= -->
-    <!-- <section id="clients" class="clients">
-      <div class="container" data-aos="zoom-in">
-
-        <div class="clients-slider swiper-container">
-          <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-    </section> -->
-    <!-- End Clients Section -->
 
     <!-- ======= About Section ======= -->
     <section id="ikigai" class="about section-bg">
@@ -160,53 +154,7 @@
       </div>
     </section><!-- End About Section -->
 
-    <!-- ======= Counts Section ======= -->
-    <section id="counts" class="counts">
-      <div class="container" data-aos="fade-up">
-
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="count-box">
-              <i class="bi bi-emoji-smile"></i>
-              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p>Happy Clients</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
-            <div class="count-box">
-              <i class="bi bi-journal-richtext"></i>
-              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p>Projects</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-            <div class="count-box">
-              <i class="bi bi-headset"></i>
-              <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p>Hours Of Support</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-            <div class="count-box">
-              <i class="bi bi-people"></i>
-              <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p>Hard Workers</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Counts Section -->
-
+    
     <!-- ======= Portfolio Section ======= -->
     <section id="sector-experience" class="portfolio">
       <div class="container" data-aos="fade-up">
@@ -222,21 +170,23 @@
         <div class="row" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
-              <li data-filter="*" >All</li>
+
               <li data-filter=".filter-education" class="filter-active">Education, Training and Learning</li>
-              <li data-filter=".filter-card">Semiconductor & MEMs</li>
-              <li data-filter=".filter-web">Smart City, Water, Mobility, Logistics</li>
-              <li data-filter=".filter-education">Bio-informatics, Bio-devices, Life Science</li>
-              <li data-filter=".filter-card">Entertainment, Media and Advertising</li>
-              <li data-filter=".filter-web">Venture Funds, Accelerators, Incubators, Government</li>
-              <li data-filter=".filter-education">Broadcasting & Communication</li>
-              <li data-filter=".filter-card">ROBOTICS, AI</li>
+              <li data-filter=".filter-semi">Semiconductor & MEMs</li>
+              <li data-filter=".filter-smart">Smart City, Water, Mobility, Logistics</li>
+              <li data-filter=".filter-bio">Bio-informatics, Bio-devices, Life Science</li>
+              <li data-filter=".filter-entertainment">Entertainment, Media and Advertising</li>
+              <li data-filter=".filter-venture">Venture Funds, Accelerators, Incubators, Government</li>
+              <li data-filter=".filter-broadcasting">Broadcasting & Communication</li>
+              <li data-filter=".filter-ROBOTICS">ROBOTICS, AI</li>
             </ul>
           </div>
         </div>
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
+
+          <!-- Product Start -->
           <div class=" portfolio-item filter-education">
             <div class="row">
               <img class="col-6 product-logo" src="./assets/img/product-logo/mekumi.png">
@@ -268,30 +218,32 @@
             </div>
 
           </div>
+          <!-- Product End -->
+
+          <!-- Product Start -->
           <div class=" portfolio-item filter-education">
             <div class="row">
-              <img class="col-6" src="./assets/img/product-logo/mekumi.png">
+              <img class="col-6 product-logo" src="./assets/img/product-logo/mekumi.png">
               <div class="col">
-                <h4>Mekumi</h4>
-                <h6>Portfolio of Education Platforms</h6>
-
+                <h4 class="product-name">Mekumi</h4>
+                <h6 class="product-service">
+                  Portfolio of Education Platforms
               </div>
             </div>
             <hr>
-            <p><strong>Sandeep Kumar, Yoshiaki Tojo, Tomo Nishikawa</strong></hp>
-            <h6>
-
+            <p class="partner-name"><strong>Sandeep Kumar, Yoshiaki Tojo, Tomo Nishikawa</strong></hp>
+            <h6 class="partner-involvement">
               Founder & Investor. Leads overall strategy
             </h6>
             <hr>
             <div class="row">
-              <p class="col">
+              <p class="col japanese-clients">
                 <strong>
                   Japanese Clients:
                 </strong> <br>
                 In discussions with Sendai City & Tokio Marine (DRR Education)
               </p>
-              <p class="col">
+              <p class="col japanese-clients">
                 <strong>
                   Global Clients:
                 </strong> <br>
@@ -300,30 +252,32 @@
             </div>
 
           </div>
+          <!-- Product End -->
+
+          <!-- Product Start -->
           <div class=" portfolio-item filter-education">
             <div class="row">
-              <img class="col-6" src="./assets/img/product-logo/mekumi.png">
+              <img class="col-6 product-logo" src="./assets/img/product-logo/mekumi.png">
               <div class="col">
-                <h4>Mekumi</h4>
-                <h6>Portfolio of Education Platforms</h6>
-
+                <h4 class="product-name">Mekumi</h4>
+                <h6 class="product-service">
+                  Portfolio of Education Platforms
               </div>
             </div>
             <hr>
-            <p><strong>Sandeep Kumar, Yoshiaki Tojo, Tomo Nishikawa</strong></hp>
-            <h6>
-
+            <p class="partner-name"><strong>Sandeep Kumar, Yoshiaki Tojo, Tomo Nishikawa</strong></hp>
+            <h6 class="partner-involvement">
               Founder & Investor. Leads overall strategy
             </h6>
             <hr>
             <div class="row">
-              <p class="col">
+              <p class="col japanese-clients">
                 <strong>
                   Japanese Clients:
                 </strong> <br>
                 In discussions with Sendai City & Tokio Marine (DRR Education)
               </p>
-              <p class="col">
+              <p class="col japanese-clients">
                 <strong>
                   Global Clients:
                 </strong> <br>
@@ -332,30 +286,33 @@
             </div>
 
           </div>
-          <div class=" portfolio-item filter-education">
-            <div class="row">
-              <img class="col-6" src="./assets/img/product-logo/mekumi.png">
-              <div class="col">
-                <h4>Mekumi</h4>
-                <h6>Portfolio of Education Platforms</h6>
+          <!-- Product End -->
 
+
+          <!-- Product Start -->
+          <div class=" portfolio-item filter-semi">
+            <div class="row">
+              <img class="col-6 product-logo" src="./assets/img/product-logo/mekumi.png">
+              <div class="col">
+                <h4 class="product-name">Mekumi</h4>
+                <h6 class="product-service">
+                  Portfolio of Education Platforms
               </div>
             </div>
             <hr>
-            <p><strong>Sandeep Kumar, Yoshiaki Tojo, Tomo Nishikawa</strong></hp>
-            <h6>
-
+            <p class="partner-name"><strong>Sandeep Kumar, Yoshiaki Tojo, Tomo Nishikawa</strong></hp>
+            <h6 class="partner-involvement">
               Founder & Investor. Leads overall strategy
             </h6>
             <hr>
             <div class="row">
-              <p class="col">
+              <p class="col japanese-clients">
                 <strong>
                   Japanese Clients:
                 </strong> <br>
                 In discussions with Sendai City & Tokio Marine (DRR Education)
               </p>
-              <p class="col">
+              <p class="col japanese-clients">
                 <strong>
                   Global Clients:
                 </strong> <br>
@@ -364,38 +321,8 @@
             </div>
 
           </div>
-          <div class="col-lg-3 col-md-6 portfolio-item filter-education">
-            <div class="row">
-              <img class="col-6" src="./assets/img/product-logo/mekumi.png">
-              <div class="col">
-                <h4>Mekumi</h4>
-                <h6>Portfolio of Education Platforms</h6>
+          <!-- Product End -->
 
-              </div>
-            </div>
-            <hr>
-            <p><strong>Sandeep Kumar, Yoshiaki Tojo, Tomo Nishikawa</strong></hp>
-            <h6>
-
-              Founder & Investor. Leads overall strategy
-            </h6>
-            <hr>
-            <div class="row">
-              <p class="col">
-                <strong>
-                  Japanese Clients:
-                </strong> <br>
-                In discussions with Sendai City & Tokio Marine (DRR Education)
-              </p>
-              <p class="col">
-                <strong>
-                  Global Clients:
-                </strong> <br>
-                Multiple launches in US K-12 and entering India and C. America.
-              </p>
-            </div>
-
-          </div>
 
 
         </div>
@@ -431,7 +358,7 @@
     <!-- End DX Solutions Section -->
 
     <!-- ======= Tabs Section ======= -->
-    <section id="tabs" class="tabs">
+    <section id="future_ready" class="tabs">
       <div class="container" data-aos="fade-up">
         <div class="section-title">
           <h2>We Unlock Your Business Potential and Make you Future Ready</h2>
@@ -560,91 +487,103 @@
 
         <div class="row">
           <div class="col-4">
-          <ul class="nav nav-tabs d-flex flex-column">
-            <li class="nav-item col-10 my-2">
-              <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tabn-1">
-                <i class='bx bx-trending-up'></i>
-                <h4 class="d-none d-lg-block">Market Penetration Strategy</h4>
-              </a>
-            </li>
-            <li class="nav-item col-10 my-2">
-              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tabn-2">
-                <i class='bx bx-trip'></i>
-                <h4 class="d-none d-lg-block">Product Development & Innovation Strategy</h4>
-              </a>
-            </li>
-            <li class="nav-item col-10 my-2">
-              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tabn-3">
-                <i class='bx bx-data'></i>
-                <h4 class="d-none d-lg-block">Strategic Partnerships & Funding</h4>
-              </a>
-            </li>
-            <li class="nav-item col-10 my-2">
-              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tabn-4">
-                <i class='bx bx-network-chart'></i>
-                <h4 class="d-none d-lg-block">Diversification Strategy & Execution</h4>
-              </a>
-            </li>
-          </ul>
+            <ul class="nav nav-tabs d-flex flex-column">
+              <li class="nav-item col-10 my-2">
+                <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tabn-1">
+                  <i class='bx bx-trending-up'></i>
+                  <h4 class="d-none d-lg-block">Market Penetration Strategy</h4>
+                </a>
+              </li>
+              <li class="nav-item col-10 my-2">
+                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tabn-2">
+                  <i class='bx bx-trip'></i>
+                  <h4 class="d-none d-lg-block">Product Development & Innovation Strategy</h4>
+                </a>
+              </li>
+              <li class="nav-item col-10 my-2">
+                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tabn-3">
+                  <i class='bx bx-data'></i>
+                  <h4 class="d-none d-lg-block">Strategic Partnerships & Funding</h4>
+                </a>
+              </li>
+              <li class="nav-item col-10 my-2">
+                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tabn-4">
+                  <i class='bx bx-network-chart'></i>
+                  <h4 class="d-none d-lg-block">Diversification Strategy & Execution</h4>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-8">
+            <div class="tab-content ">
+              <div class="tab-pane active show" id="tabn-1">
+                <div class="row">
+                  <div class="col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0" data-aos="fade-up" data-aos-delay="100">
+                    <h5>
+                      TMP works with your team from an early stage to avoid mission-critical mistakes like low or no
+                      product/market fit, underestimating competition, and mismatched value propositions. Our team helps
+                      you evaluate, understand, and seize Japan market expansion opportunities. We bring expert insights
+                      to develop market entry processes like market sizing, competitor analysis, supply chain
+                      structures, post-entry growth opportunities, and talent mapping.
+                    </h5>
+                  </div>
+                  <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tabn-2">
+                <div class="row">
+                  <div class="col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0">
+                    <h5>
+                      TMP team has deep experience in Product Development and R&D, who will help you navigate the Japan
+                      landscape and create new value. We pride ourselves in helping organizations define, build, and
+                      launch the right offerings – with the right collaborators and with accelerated times to market.
+                    </h5>
+                  </div>
+                  <div class="col-lg-0 order-1 order-lg-2 text-center">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tabn-3">
+                <div class="row">
+                  <div class="col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0">
+                    <h5>
+                      TMP experts will develop a detailed strategy and plan for financial and operational scalability,
+                      manage growth and prepare for the future. As a part of this plan we will identify strategic
+                      business partners and explore investment opportunities with them. We are connected into the
+                      Japanese startup ecosystem and will tap into that to fill resource gaps, getting you
+                      investor-ready and securing strategic funding.
+                    </h5>
+                  </div>
+                  <div class="col-lg-6 order-1 order-lg-2 text-center">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tabn-4">
+                <div class="row">
+                  <div class="col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0">
+                    <h5>
+                      TMP works closely with clients to identify opportunities for growth. Our deep understanding of the
+                      dynamics of Japanese industries allows us to provide a thorough analysis of the potential
+                      opportunities, risks and their mitigation plans. We will develop your growth forecasts,
+                      attractiveness
+                      of the opportunity, the investment required and potential returns on investment.
+                    </h5>
+                  </div>
+                  <div class="col-lg-6 order-1 order-lg-2 text-center">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col-8">
-        <div class="tab-content ">
-          <div class="tab-pane active show" id="tabn-1">
-            <div class="row">
-              <div class="col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0" data-aos="fade-up" data-aos-delay="100">
-                <h5>
-                  TMP works with your team from an early stage to avoid mission-critical mistakes like low or no product/market fit, underestimating competition, and mismatched value propositions. Our team helps you evaluate, understand, and seize Japan market expansion opportunities. We bring expert insights to develop market entry processes like market sizing, competitor analysis, supply chain structures, post-entry growth opportunities, and talent mapping. 
-                </h5>
-              </div>
-              <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
-              </div>
-            </div>
-          </div>
-          <div class="tab-pane" id="tabn-2">
-            <div class="row">
-              <div class="col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0">
-                <h5>
-                  TMP team has deep experience in Product Development and R&D, who will help you navigate the Japan landscape and create new value. We pride ourselves in helping organizations define, build, and launch the right offerings –  with the right collaborators and with accelerated times to market.</h5>
-              </div>
-              <div class="col-lg-0 order-1 order-lg-2 text-center">
-              </div>
-            </div>
-          </div>
-          <div class="tab-pane" id="tabn-3">
-            <div class="row">
-              <div class="col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0">
-                <h5>
-                  TMP experts will develop a detailed strategy and plan for financial and operational scalability, manage growth and prepare for the future. As a part of this plan we will identify strategic business partners and explore investment opportunities with them.  We are connected into the Japanese startup ecosystem and will tap into that to fill resource gaps, getting you investor-ready and securing strategic funding.
-                </h5>
-              </div>
-              <div class="col-lg-6 order-1 order-lg-2 text-center">
-              </div>
-            </div>
-          </div>
-          <div class="tab-pane" id="tabn-4">
-            <div class="row">
-              <div class="col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0">
-                <h5>
-                  TMP works closely with clients to identify opportunities for growth. Our deep understanding of the
-                  dynamics of Japanese industries allows us to provide a thorough analysis of the potential
-                  opportunities, risks and their mitigation plans. We will develop your growth forecasts, attractiveness
-                  of the opportunity, the investment required and potential returns on investment.
-                </h5>
-              </div>
-              <div class="col-lg-6 order-1 order-lg-2 text-center">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      </div>
       </div>
     </section>
     <!-- End  Section -->
 
 
     <!-- ======= Services Section ======= -->
-    <section id="services" class="about">
+    <section id="leadership" class="about">
       <div class="container text-center" data-aos="fade-up">
 
         <div class="section-title">
@@ -653,7 +592,7 @@
             you.</p>
         </div>
         <div id="meet-partner-action">
-          <a href="#" id="meet-partner-btn"><span>Meet Our Partners</span> <i class="bx bx-chevron-right"></i></a>
+          <a href="./about.html#team" id="meet-partner-btn"><span>Meet Our Partners</span> <i class="bx bx-chevron-right"></i></a>
         </div>
       </div>
 
@@ -704,114 +643,125 @@
           <div class="col-lg-12">
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
 
-              <!-- Services to Select  -->
-              <div class="checkbox-selection">
-                <p class="checkbox-label">Services</p>
+              <div class="row">
 
-                <div class="form-check form-check-inline">
-                  <input class="form-check-input contact-checkbox" type="checkbox" value="Commercial"
-                    id="commercial_service_check" name="service">
-                  <label class="form-check-label" for="commercial_service_check">
-                    Commercial
-                  </label>
-                </div>
-                <div class="form-check form-check-inline">
-                  <input class="form-check-input contact-checkbox" type="checkbox" value="Technology"
-                    id="technology_service_check" name="service">
-                  <label class="form-check-label" for="technology_service_check">
-                    Technology
-                  </label>
-                </div>
-                <div class="form-check form-check-inline">
-                  <input class="form-check-input contact-checkbox" type="checkbox" value="Strategy"
-                    id="strategy_service_check" name="service">
-                  <label class="form-check-label" for="strategy_service_check">
-                    Strategy
-                  </label>
-                </div>
-                <div class="form-check form-check-inline">
-                  <input class="form-check-input contact-checkbox" type="checkbox" value="Capacity building (for corporations)"
-                    id="capacity_buildings_corporation_service_check" name="service">
-                  <label class="form-check-label" for="capacity_buildings_corporation_service_check">
-                    Capacity building (for corporations)
-                  </label>
-                </div>
-                <div class="form-check form-check-inline">
-                  <input class="form-check-input contact-checkbox" type="checkbox" value="Capacity building (for nations)"
-                    id="capacity_buildings_nation_service_check" name="service">
-                  <label class="form-check-label" for="capacity_buildings_nation_service_check">
-                    Capacity building (for nations)
-                  </label>
-                </div>
-                
 
-              </div>
+                <!-- Services to Select  -->
+                <div class="col checkbox-selection">
+                  <p class="checkbox-label">Services</p>
 
-              <!-- Sectors to Select -->
-              <div class="checkbox-selection">
-                <p class="checkbox-label">Sectors</p>
+                  <div class="form-check form-check">
+                    <input class="form-check-input contact-checkbox" type="checkbox" value="Commercial"
+                      id="commercial_service_check" name="service">
+                    <label class="form-check-label" for="commercial_service_check">
+                      Commercial
+                    </label>
+                  </div>
+                  <div class="form-check form-check">
+                    <input class="form-check-input contact-checkbox" type="checkbox" value="Technology"
+                      id="technology_service_check" name="service">
+                    <label class="form-check-label" for="technology_service_check">
+                      Technology
+                    </label>
+                  </div>
+                  <div class="form-check form-check">
+                    <input class="form-check-input contact-checkbox" type="checkbox" value="Strategy"
+                      id="strategy_service_check" name="service">
+                    <label class="form-check-label" for="strategy_service_check">
+                      Strategy
+                    </label>
+                  </div>
+                  <div class="form-check form-check">
+                    <input class="form-check-input contact-checkbox" type="checkbox"
+                      value="Capacity building (for corporations)" id="capacity_buildings_corporation_service_check"
+                      name="service">
+                    <label class="form-check-label" for="capacity_buildings_corporation_service_check">
+                      Capacity building (for corporations)
+                    </label>
+                  </div>
+                  <div class="form-check form-check">
+                    <input class="form-check-input contact-checkbox" type="checkbox"
+                      value="Capacity building (for nations)" id="capacity_buildings_nation_service_check"
+                      name="service">
+                    <label class="form-check-label" for="capacity_buildings_nation_service_check">
+                      Capacity building (for nations)
+                    </label>
+                  </div>
 
-                <div class="form-check form-check-inline">
-                  <input class="form-check-input contact-checkbox" type="checkbox" value="Education, Training and Learning"
-                    id="education_sector_check"  name="sector">
-                  <label class="form-check-label" for="education_sector_check">
-                    Education, Training and Learning
-                  </label>
-                </div>
-                <div class="form-check form-check-inline">
-                  <input class="form-check-input contact-checkbox" type="checkbox" value="Semiconductor & MEMs"
-                    id="semiconductor_sector_check" name="sector">
-                  <label class="form-check-label" for="semiconductor_sector_check">
-                    Semiconductor & MEMs
-                  </label>
-                </div>
-                <div class="form-check form-check-inline">
-                  <input class="form-check-input contact-checkbox" type="checkbox" value="Smart City, Water, Mobility, Logistics"
-                    id="smart_city_sector_check" name="sector">
-                  <label class="form-check-label" for="smart_city_sector_check">
-                    Smart City, Water, Mobility, Logistics
-                  </label>
-                </div>
-                <div class="form-check form-check-inline">
-                  <input class="form-check-input contact-checkbox" type="checkbox" value="Bio-informatics, Bio-devices, Life Science"
-                    id="bio_infomatics_sector_check" name="sector">
-                  <label class="form-check-label" for="bio_infomatics_sector_check">
-                    Bio-informatics, Bio-devices, Life Science
-                  </label>
-                </div>
-                <div class="form-check form-check-inline">
-                  <input class="form-check-input contact-checkbox" type="checkbox" value="Entertainment, Media and Advertising"
-                    id="eterntainment_sector_check" name="sector">
-                  <label class="form-check-label" for="eterntainment_sector_check">
-                    Entertainment, Media and Advertising
-                  </label>
-                </div>
-                <div class="form-check form-check-inline">
-                  <input class="form-check-input contact-checkbox" type="checkbox" value="Venture Funds, Accelerators, Incubators, Government"
-                    id="venture_fund_sector_check" name="sector">
-                  <label class="form-check-label" for="venture_fund_sector_check">
-                    Venture Funds, Accelerators, Incubators, Government
-                  </label>
-                </div>
-                <div class="form-check form-check-inline">
-                  <input class="form-check-input contact-checkbox" type="checkbox" value="Broadcasting & Communication"
-                    id="broadcasting_electronics_check" name="sector">
-                  <label class="form-check-label" for="broadcasting_electronics_check">
-                    Broadcasting & Communication
-                  </label>
-                </div>
-                <div class="form-check form-check-inline">
-                  <input class="form-check-input contact-checkbox" type="checkbox" value=""
-                    id="robotics_electronics_check" name="sector">
-                  <label class="form-check-label" for="robotics_electronics_check">
-                    ROBOTICS, AI
-                  </label>
+
                 </div>
 
+                <!-- Sectors to Select -->
+                <div class="col checkbox-selection">
+                  <p class="checkbox-label">Sectors</p>
+
+                  <div class="form-check form-check">
+                    <input class="form-check-input contact-checkbox" type="checkbox"
+                      value="Education, Training and Learning" id="education_sector_check" name="sector">
+                    <label class="form-check-label" for="education_sector_check">
+                      Education, Training and Learning
+                    </label>
+                  </div>
+                  <div class="form-check form-check">
+                    <input class="form-check-input contact-checkbox" type="checkbox" value="Semiconductor & MEMs"
+                      id="semiconductor_sector_check" name="sector">
+                    <label class="form-check-label" for="semiconductor_sector_check">
+                      Semiconductor & MEMs
+                    </label>
+                  </div>
+                  <div class="form-check form-check">
+                    <input class="form-check-input contact-checkbox" type="checkbox"
+                      value="Smart City, Water, Mobility, Logistics" id="smart_city_sector_check" name="sector">
+                    <label class="form-check-label" for="smart_city_sector_check">
+                      Smart City, Water, Mobility, Logistics
+                    </label>
+                  </div>
+                  <div class="form-check form-check">
+                    <input class="form-check-input contact-checkbox" type="checkbox"
+                      value="Bio-informatics, Bio-devices, Life Science" id="bio_infomatics_sector_check" name="sector">
+                    <label class="form-check-label" for="bio_infomatics_sector_check">
+                      Bio-informatics, Bio-devices, Life Science
+                    </label>
+                  </div>
+                  <div class="form-check form-check">
+                    <input class="form-check-input contact-checkbox" type="checkbox"
+                      value="Entertainment, Media and Advertising" id="eterntainment_sector_check" name="sector">
+                    <label class="form-check-label" for="eterntainment_sector_check">
+                      Entertainment, Media and Advertising
+                    </label>
+                  </div>
+                  <div class="form-check form-check">
+                    <input class="form-check-input contact-checkbox" type="checkbox"
+                      value="Venture Funds, Accelerators, Incubators, Government" id="venture_fund_sector_check"
+                      name="sector">
+                    <label class="form-check-label" for="venture_fund_sector_check">
+                      Venture Funds, Accelerators, Incubators, Government
+                    </label>
+                  </div>
+                  <div class="form-check form-check">
+                    <input class="form-check-input contact-checkbox" type="checkbox"
+                      value="Broadcasting & Communication" id="broadcasting_electronics_check" name="sector">
+                    <label class="form-check-label" for="broadcasting_electronics_check">
+                      Broadcasting & Communication
+                    </label>
+                  </div>
+                  <div class="form-check form-check">
+                    <input class="form-check-input contact-checkbox" type="checkbox" value=""
+                      id="robotics_electronics_check" name="sector">
+                    <label class="form-check-label" for="robotics_electronics_check">
+                      ROBOTICS, AI
+                    </label>
+                  </div>
+                </div>
               </div>
 
 
               <div class="row">
+
+                <div class="col-lg-6">
+
+                
+                <div class="row">
                 <div class="col form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
                 </div>
@@ -828,19 +778,21 @@
                   <input type="email" class="form-control" name="email" id="email" placeholder="Company Name" required>
                 </div>
               </div>
-
+            </div>
+            <div class="col-lg-4">
               <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                <textarea class="form-control" name="message" rows="3" placeholder="Message" required></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Submit</button></div>
+            </div>
+            <div class="text-center"><button type="submit">Submit</button></div>
             </form>
           </div>
-
+        </div>
         </div>
 
       </div>
@@ -900,7 +852,7 @@
           &copy; Copyright <strong><span>TMP</span></strong>. All Rights Reserved
         </div>
         <div class="credits">
-        
+
           Designed by <a href="https://worldnetlabs.com/">WorldNetLabs</a>
         </div>
       </div>
