@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>BIXY - Product Details</title>
+  <title>TMP Corporation / BIXY</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -35,44 +35,41 @@
 
 <body>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center">
+   <!-- ======= Header ======= -->
+   <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center">
       <h1 class="logo me-auto"><a href="index.html" style="font-family: 'Roboto', 'Arial', sans-serif;">tmp
-          <!-- <span style="font-size: 10px;">corporation</span> -->
         </a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt=""></a>-->
+     
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="nav-link scrollto" href="./index.html">Home</a></li>
-          <li><a class="nav-link scrollto" href="#ikigai">Ikigai</a></li>
-          <li><a class="nav-link scrollto" href="#sector-experience">Sector Experience</a></li>
-          <li class="dropdown"><a href="#dx-solutions"><span>DX Solutions</span><i class='bi bi-chevron-down'></i></a>
+          <li><a class="nav-link" href="./index.html">Home</a></li>
+          <li class="dropdown"><a href="./index.html#dx-solutions"><span>DX Solutions</span><i class='bi bi-chevron-down'></i></a>
             <ul>
-              <li><a href="#future_ready">Be Future Ready</a></li>
-              <li><a href="#service2">Enter Japan Market</a></li>
+              <li><a href="./index.html#future_ready">Be Future Ready</a></li>
+            </ul>
+          </li>
+          <li class="dropdown dropdown_active"><a href="#"><span>Products</span><i class='bi bi-chevron-down'></i></a>
+            <ul>
+              <li><a class="nav-link scrollto active" href="#">Bixy</a></li>
+              <li><a href="./admybrand.html">ADMYBRAND</a></li>
+              <li><a href="./qivr.html">QIVR</a></li>
             </ul>
           </li>
           <li class="dropdown"><a href="./about.html"><span>About Us</span><i class='bi bi-chevron-down'></i></a>
             <ul>
+              <li><a href="./index.html#ikigai">Ikigai</a></li>
+              <li><a href="./index.html#sector-experience">Sector Experience</a></li>
               <li><a href="./about.html#team">TMP's Team</a></li>
               <li><a href="./about.html#about">TMP's Story</a></li>
               <li><a href="./about.html#mission">TMP's Mission</a></li>
               <li><a href="./about.html#advantage">TMP's Advantage</a></li>
-              <li><a href="./company_profile.html">Company Profile</a></li>
+              <li><a href="./company_profile.html">Company Profile<i class='bi bi-chevron-right'></i></a></li>
             </ul>
           </li>
-          <li class="dropdown active"><a href="#"><span>Products</span><i class='bi bi-chevron-down'></i></a>
-            <ul>
-              <li><a href="./portfolio-details.html">Bixy</a></li>
-              <li><a href="./portfolio-details.html">ADMYBRAND</a></li>
-              <li><a href="./portfolio-details.html">QIVR</a></li>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li class="dropdown"><a href="#"><span>JP</span> <i class='bx bx-world'></i></a>
+          
+            <li class="dropdown"><a href="#"><span>JP</span> <i class='bx bx-world'></i></a>
             <ul>
               <li><a href="../index.html">英語 - English</a></li>
               <li><a href="./index.html">日本語 - Japanese</a></li>
@@ -84,7 +81,7 @@
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
-      <a href="#contact" class="get-started-btn scrollto">Let's Connect</a>
+      <a href="./index.html#contact" class="get-started-btn scrollto">Let's Connect</a>
     </div>
   </header><!-- End Header -->
 
@@ -272,7 +269,27 @@
     </section>
     <!-- End Portfolio Details Section -->
 
+
+    <!-- ======= Slider Section ======= -->
+    <section id="clients" class="clients">
+      <div class="container" data-aos="zoom-in">
+          <div class="section-title">
+              <h2>Our Products</h2>
+          </div>
+          <div class="clients-slider swiper-container">
+              <div class="swiper-wrapper align-items-center">
+                  <div class="swiper-slide"><a href="#"><img src="./assets/img/bixy/logo.png" class="img-fluid" alt=""></a></div>
+                  <div class="swiper-slide"><a href="./admybrand.html" target="_blank"><img src="assets/img/admybrand/logo.png" class="img-fluid" alt=""></a></div>
+                  <div class="swiper-slide"><a href="./qivr.html" target="_blank"><img src="assets/img/qivr/logo.png" class="img-fluid" alt=""></a></div>
+              </div>
+              <div class="swiper-pagination"></div>
+          </div>
+
+      </div>
+  </section><!-- End Slider Section -->
+
   </main><!-- End #main -->
+  
   <!-- ======= Footer ======= -->
   <footer id="footer">
 
@@ -292,8 +309,7 @@
           <div class="col-lg-3 col-md-6 footer-contact">
             <h4>Contact</h4>
             <p>
-              <strong>Phone:</strong> +81-9999999999<br>
-              <strong>Email:</strong> inquire@tmpc.co.jp<br>
+              <strong>Email:</strong>inquire@tmpc.co.jp<br>
             </p>
           </div>
 
@@ -307,13 +323,11 @@
           </div>
 
           <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Terms and Conditions</h4>
+            <h4>Privacy Policy</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="./privacy_policy.html">Privacy policy</a></li>
             </ul>
           </div>
-
         </div>
       </div>
     </div>
