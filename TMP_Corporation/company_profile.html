@@ -41,34 +41,80 @@
 
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top d-flex align-items-center">
-        <div class="container d-flex align-items-center">
-            <h1 class="logo me-auto"><a href="index.html" style="font-family: 'Roboto', 'Arial', sans-serif;">tmp
-                    <!-- <span style="font-size: 10px;">corporation</span> -->
-                </a></h1>
-            <!-- Uncomment below if you prefer to use an image logo -->
-            <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt=""></a>-->
-
-            <nav id="navbar" class="navbar order-last order-lg-0">
-                <ul>
-                    <li><a class="nav-link" href="./index.html">Home</a></li>
-                    <li><a class="nav-link" href="./index.html#ikigai">Ikigai</a></li>
-                    <li><a class="nav-link" href="./index.html#sector-experience">Sector Experience</a></li>
-                    <li><a class="nav-link" href="./index.html#dx-solutions">DX Solutions</a></li>
-                    <li><a class="nav-link" href="./about.html">About Us</a></li>
-                    <li><a class="nav-link" href="./index.html#contact">Contact</a></li>
-                    <li class="dropdown"><a href="#"><span>EN</span> <i class='bx bx-world'></i></a>
-                        <ul>
-                            <li><a href="#">英語 - English</a></li>
-                            <li><a href="#">日本語 - Japanese</a></li>
-                        </ul>
+      <div class="container d-flex align-items-center">
+        <h1 class="logo me-auto"><a href="./index.html" style="font-family: 'Roboto', 'Arial', sans-serif;">tmp
+          </a></h1>
+        <nav id="navbar" class="navbar order-last order-lg-0">
+          <ul>
+            <li><a class="nav-link" href="./index.html">Home</a></li>
+            <li><a class="nav-link" href="./index.html#ikigai">Ikigai</a></li>
+            <li><a class="nav-link" href="./index.html#service2">Enter Japan Market</a></li>
+            
+            <li class="dropdown"><a href="./index.html#dx-solutions"><span>DX Solutions</span> <i class="bi bi-chevron-down"></i></a>
+              <ul>
+                <li class="dropdown"><a href="#sector-experience"><span>Sector Experience</span> <i class="bi bi-chevron-right"></i></a>
+                  <ul id="portfolio-nav">
+                    <li class="nav-link" data-filter=".filter-education"><a href="./index.html#sector-experience">Education, Training and Learning</a></li>
+                    <li class="nav-link" data-filter=".filter-semi"><a href="./index.html#sector-experience">Semiconductor & MEMs</a></li>
+                    <li class="nav-link" data-filter=".filter-smart"><a href="./index.html#sector-experience">Smart City, Water, Mobility, Logistics</a></li>
+                    <li class="nav-link" data-filter=".filter-bio"><a href="./index.html#sector-experience">Bio-informatics, Bio-devices, Life Science</a></li>
+                    <li class="nav-link" data-filter=".filter-entertainment"><a href="./index.html#sector-experience">Entertainment, Media and Advertising</a></li>
+                    <li class="nav-link" data-filter=".filter-venture"><a href="./index.html#sector-experience">Venture Funds, Accelerators, <br>Incubators, Government</a></li>
+                    <li class="nav-link" data-filter=".filter-broadcasting"><a href="./index.html#sector-experience">Broadcasting & Communication</a></li>
+                    <li class="nav-link" data-filter=".filter-ROBOTICS"><a href="./index.html#sector-experience">ROBOTICS, AI</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"><a href="./index.html#future_ready">Become Future Ready<i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li class="nav-link">
+                      <a href="./index.html#future_ready">
+                        Innovation Capacity Building
+                      </a>
                     </li>
-
-                </ul>
-                <i class="bi bi-list mobile-nav-toggle"></i>
-            </nav><!-- .navbar -->
-
-            <a href="./index.html#contact" class="get-started-btn">Let's Connect</a>
-        </div>
+                    <li class="nav-link">
+                      <a href="./index.html#future_ready">
+                        DX Strategy Implementation
+                      </a>
+                    </li>
+                    <li class="nav-link scrollto">
+                      <a href="./index.html#future_ready">
+                        Data Economy Creation
+                      </a>
+                    </li>
+                    <li class="nav-link">
+                      <a href="./index.html#future_ready">
+                        AI Driven Organizations
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                
+              </ul>
+            </li>
+            <li class="dropdown"><a href="./about.html"><span>About Us</span><i class='bi bi-chevron-down'></i></a>
+              <ul>
+                <li><a href="./about.html#team">TMP's Team</a></li>
+                <li><a href="./about.html#about">TMP's Story</a></li>
+                <li><a href="./about.html#mission">TMP's Mission</a></li>
+                <li><a href="./about.html#advantage">TMP's Advantage</a></li>
+                <li><a href="./company_profile.html">Company Profile<i class='bi bi-chevron-right'></i></a></li>
+              </ul>
+            </li>
+            
+            <li class="dropdown"><a href="#"><span>EN</span> <i class='bx bx-world'></i></a>
+              <ul>
+                <li><a href="./index.html">英語 - English</a></li>
+                <li><a href="./jp/company_profile.html">日本語 - Japanese</a></li>
+              </ul>
+            </li>
+            
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
+        
+        <a href="./about.html#contact" class="get-started-btn scrollto">Let's Connect</a>
+      </div>
     </header><!-- End Header -->
 
 
@@ -193,10 +239,7 @@
           &copy; Copyright <strong><span>Presento</span></strong>. All Rights Reserved
         </div>
         <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/presento-bootstrap-corporate-template/ -->
+          
           Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
         </div>
       </div>

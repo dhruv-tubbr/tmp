@@ -223,6 +223,32 @@
           AOS.refresh()
         });
       }, true);
+
+      //custom
+      on('click', '#portfolio-nav li', function(e) {
+        e.preventDefault();
+        portfolioFilters.forEach(function(el) {
+          el.classList.remove('filter-active');
+          if(el.getAttribute("data-filter")==e.target.parentNode.getAttribute('data-filter')){
+            el.classList.add('filter-active');
+        }
+        // console.log(el.getAttribute("data-filter"));
+        // console.log(e.target.parentNode);
+
+        });
+        
+        window.scrollTo({
+          top: document.querySelector("#sector-experience").offsetTop +50,
+          behavior: 'smooth'
+        })
+
+        portfolioIsotope.arrange({
+          filter: this.getAttribute('data-filter')
+        });
+        portfolioIsotope.on('arrangeComplete', function() {
+          AOS.refresh()
+        });
+      }, true);
     }
 
   });
@@ -293,3 +319,19 @@
   });
 
 })()
+
+//custom for nav
+document.querySelectorAll('.tab-nav').forEach(item => {
+  item.addEventListener('click', event => {
+      document.querySelectorAll("#future_ready .nav-item>a").forEach(tab=>{
+          tab.classList.remove("active");
+          if(tab.getAttribute("data-bs-target")==event.target.getAttribute('data-bs-target')){
+              tab.classList.add("active");
+          }
+          window.scrollTo({
+            top: document.querySelector("#future_ready").offsetTop +50,
+            behavior: 'smooth'
+          })
+      });
+  });
+});

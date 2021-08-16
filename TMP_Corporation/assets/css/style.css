@@ -207,7 +207,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 
-.navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
+.navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a, .dropdown_active > a, .dropdown_item_active > a {
   color: var(--clr-blue);
 }
 
@@ -464,7 +464,7 @@ section {
   content: "";
   background: #1b1b1b;
   position: absolute;
-  bottom: 60px;
+  bottom: 0px;
   top: 0px;
   left: 0;
   right: 0;

@@ -10,8 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <!-- <link href="assets/img/favicon.png" rel="icon"> -->
-  <link href="https://tmpc.co.jp/tmpcimg/favicon.ico" rel="icon">
+  <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -33,7 +32,7 @@
 
   <!-- Custom CSS File -->
   <link href="assets/css/custom.css" rel="stylesheet">
-
+  <script scr="./js/custom.js" defer></script>
 </head>
 
 <body>
@@ -42,20 +41,52 @@
   <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center">
       <h1 class="logo me-auto"><a href="index.html" style="font-family: 'Roboto', 'Arial', sans-serif;">tmp
-          <!-- <span style="font-size: 10px;">corporation</span> -->
         </a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt=""></a>-->
-
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a class="nav-link scrollto active" href="#">Home</a></li>
           <li><a class="nav-link scrollto" href="#ikigai">Ikigai</a></li>
-          <li><a class="nav-link scrollto" href="#sector-experience">Sector Experience</a></li>
-          <li class="dropdown"><a href="#dx-solutions"><span>DX Solutions</span><i class='bi bi-chevron-down'></i></a>
+          <li><a class="nav-link scrollto" href="#service2">Enter Japan Market</a></li>
+          
+          <li class="dropdown"><a href="#dx-solutions"><span>DX Solutions</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#future_ready">Be Future Ready</a></li>
-              <li><a href="#service2">Enter Japan Market</a></li>
+              <li class="dropdown"><a href="#sector-experience"><span>Sector Experience</span> <i class="bi bi-chevron-right"></i></a>
+                <ul id="portfolio-nav">
+                  <li class="nav-link" data-filter=".filter-education"><a href="#sector-experience">Education, Training and Learning</a></li>
+                  <li class="nav-link" data-filter=".filter-semi"><a href="#sector-experience">Semiconductor & MEMs</a></li>
+                  <li class="nav-link" data-filter=".filter-smart"><a href="#sector-experience">Smart City, Water, Mobility, Logistics</a></li>
+                  <li class="nav-link" data-filter=".filter-bio"><a href="#sector-experience">Bio-informatics, Bio-devices, Life Science</a></li>
+                  <li class="nav-link" data-filter=".filter-entertainment"><a href="#sector-experience">Entertainment, Media and Advertising</a></li>
+                  <li class="nav-link" data-filter=".filter-venture"><a href="#sector-experience">Venture Funds, Accelerators, <br>Incubators, Government</a></li>
+                  <li class="nav-link" data-filter=".filter-broadcasting"><a href="#sector-experience">Broadcasting & Communication</a></li>
+                  <li class="nav-link" data-filter=".filter-ROBOTICS"><a href="#sector-experience">ROBOTICS, AI</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#future_ready">Become Future Ready<i class="bi bi-chevron-right"></i></a>
+                <ul class="nav">
+                  <li class="nav-link">
+                    <a class="tab-nav" data-bs-toggle="tab" data-bs-target="#tab-1">
+                      Innovation Capacity Building
+                    </a>
+                  </li>
+                  <li class="nav-link">
+                    <a class="tab-nav" data-bs-toggle="tab" data-bs-target="#tab-2">
+                      DX Strategy Implementation
+                    </a>
+                  </li>
+                  <li class="nav-link">
+                    <a class="tab-nav" data-bs-toggle="tab" data-bs-target="#tab-3">
+                      Data Economy Creation
+                    </a>
+                  </li>
+                  <li class="nav-link">
+                    <a class="tab-nav" data-bs-toggle="tab" data-bs-target="#tab-4">
+                      AI Driven Organizations
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              
             </ul>
           </li>
           <li class="dropdown"><a href="./about.html"><span>About Us</span><i class='bi bi-chevron-down'></i></a>
@@ -67,19 +98,18 @@
               <li><a href="./company_profile.html">Company Profile<i class='bi bi-chevron-right'></i></a></li>
             </ul>
           </li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          
           <li class="dropdown"><a href="#"><span>EN</span> <i class='bx bx-world'></i></a>
             <ul>
               <li><a href="./index.html">英語 - English</a></li>
-              <li><a href="./jp/index.html">日本語 - Japanese</a></li>
+              <li><a href="./jp/">日本語 - Japanese</a></li>
             </ul>
           </li>
-          
-
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
+      </nav>
+      <!-- .navbar -->
+      
       <a href="#contact" class="get-started-btn scrollto">Let's Connect</a>
     </div>
   </header><!-- End Header -->
@@ -122,31 +152,6 @@
           </div>
           <div class="col-xl-7 d-flex align-items-stretch">
             <img src="https://zekluu.com/wp-content/uploads/2019/03/noticia2_def.png">
-            <!-- <div class="icon-boxes d-flex flex-column justify-content-center">
-              <div class="row">
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-                  <i class="bx bx-receipt"></i>
-                  <h4>Corporis voluptates sit</h4>
-                  <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-                  <i class="bx bx-cube-alt"></i>
-                  <h4>Ullamco laboris nisi</h4>
-                  <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-                  <i class="bx bx-images"></i>
-                  <h4>Labore consequatur</h4>
-                  <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
-                  <i class="bx bx-shield"></i>
-                  <h4>Beatae veritatis</h4>
-                  <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
-                </div>
-              </div>
-            </div> -->
-            <!-- End .content-->
           </div>
         </div>
 
