@@ -231,32 +231,8 @@
             </div>
           </div>
           <div class="col-xl-7 d-flex align-items-stretch">
-            <img src="https://static.dezeen.com/uploads/2019/06/kojimachi-terrace-office-nendo-tokyo-japan-architecture-wood_dezeen_2364_hero2.jpg">
-            <!-- <div class="icon-boxes d-flex flex-column justify-content-center">
-              <div class="row">
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-                  <i class="bx bx-receipt"></i>
-                  <h4>Corporis voluptates sit</h4>
-                  <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-                  <i class="bx bx-cube-alt"></i>
-                  <h4>Ullamco laboris nisi</h4>
-                  <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-                  <i class="bx bx-images"></i>
-                  <h4>Labore consequatur</h4>
-                  <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
-                  <i class="bx bx-shield"></i>
-                  <h4>Beatae veritatis</h4>
-                  <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
-                </div>
-              </div>
-            </div> -->
-            <!-- End .content-->
+            <img src="./assets/img/tokyo2.jpg">
+         
           </div>
         </div>
 
@@ -342,46 +318,29 @@
                 <!-- Services to Select  -->
                 <div class="col-2"></div>
                 <div class="col-4 checkbox-selection">
-                  <p class="checkbox-label">Services</p>
+                  <p class="checkbox-label">TMP Products</p>
 
                   <div class="form-check form-check">
-                    <input class="form-check-input contact-checkbox" type="checkbox" value="Commercial"
-                      id="commercial_service_check" name="service">
-                    <label class="form-check-label" for="commercial_service_check">
-                      Commercial
+                    <input class="form-check-input contact-checkbox" type="checkbox" value="Bixy"
+                      id="Bixy_service_check" name="service">
+                    <label class="form-check-label" for="Bixy_service_check">
+                      Bixy
                     </label>
                   </div>
                   <div class="form-check form-check">
-                    <input class="form-check-input contact-checkbox" type="checkbox" value="Technology"
-                      id="technology_service_check" name="service">
-                    <label class="form-check-label" for="technology_service_check">
-                      Technology
+                    <input class="form-check-input contact-checkbox" type="checkbox" value="Admybrand"
+                      id="Admybrand_service_check" name="service">
+                    <label class="form-check-label" for="Admybrand_service_check">
+                      Admybrand
                     </label>
                   </div>
                   <div class="form-check form-check">
-                    <input class="form-check-input contact-checkbox" type="checkbox" value="Strategy"
-                      id="strategy_service_check" name="service">
-                    <label class="form-check-label" for="strategy_service_check">
-                      Strategy
+                    <input class="form-check-input contact-checkbox" type="checkbox" value="QIVR"
+                      id="QIVR_service_check" name="service">
+                    <label class="form-check-label" for="QIVR_service_check">
+                      QIVR
                     </label>
                   </div>
-                  <div class="form-check form-check">
-                    <input class="form-check-input contact-checkbox" type="checkbox"
-                      value="Capacity building (for corporations)" id="capacity_buildings_corporation_service_check"
-                      name="service">
-                    <label class="form-check-label" for="capacity_buildings_corporation_service_check">
-                      Capacity building (for corporations)
-                    </label>
-                  </div>
-                  <div class="form-check form-check">
-                    <input class="form-check-input contact-checkbox" type="checkbox"
-                      value="Capacity building (for nations)" id="capacity_buildings_nation_service_check"
-                      name="service">
-                    <label class="form-check-label" for="capacity_buildings_nation_service_check">
-                      Capacity building (for nations)
-                    </label>
-                  </div>
-
 
                 </div>
 
@@ -449,33 +408,38 @@
                 </div>
               </div>
 
-
+              <br>
               <div class="row">
                 <div class="col-2"></div>
                 <div class="col-lg-4">
-
+  
                 
                 <div class="row">
                 <div class="col form-group">
+                  <label for="name" class="form-label">Name</label>
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
                 </div>
                 <div class="col form-group">
+                  <label for="email" class="form-label">Email Address</label>
                   <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
                 </div>
               </div>
-
+  
               <div class="row">
                 <div class="col form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Phone Number" required>
+                  <label for="phone_number" class="form-label">Phone Number</label>
+                  <input type="text" name="phone_number" class="form-control" id="phone_number" placeholder="Phone Number" required>
                 </div>
                 <div class="col form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Company Name" required>
+                  <label for="company" class="form-label">Company Name</label>
+                  <input type="text" class="form-control" name="company" id="company" placeholder="Company Name" required>
                 </div>
               </div>
             </div>
             <div class="col-lg-4">
               <div class="form-group">
-                <textarea class="form-control" name="message" rows="3" placeholder="Message" required></textarea>
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" name="message" rows="3" id="message" placeholder="Message" required></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
