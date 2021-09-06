@@ -6,3 +6,7 @@ i{
 .swiper-slide img{
     max-height: 100px;
 }
+
+strong{
+    color: var(--clr-blue);
+}

@@ -44,6 +44,7 @@ table{
     min-width: 40vw;
     top: 0;
     right: 0;
+    max-height: 600px;
 }
 
 .logo_section p{
