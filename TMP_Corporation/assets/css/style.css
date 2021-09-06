@@ -827,6 +827,7 @@ section {
 
 .portfolio-item img{
   width: 100px;
+  object-fit: contain;
 }
 
 /*custom hover*/
@@ -839,7 +840,7 @@ section {
 }
 
 .portfolio #portfolio-flters {
-  padding: 0;
+  padding: 1em;
   margin: 0 auto 20px auto;
   list-style: none;
   text-align: center;

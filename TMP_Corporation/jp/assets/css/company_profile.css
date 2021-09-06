@@ -4,8 +4,10 @@ main{
     margin: 15vh auto;
     position: relative;
     min-width: 10%;
+    
 }
 
+body{overflow-x: hidden;}
 .section-title{
     padding-bottom: 0px !important;
 }

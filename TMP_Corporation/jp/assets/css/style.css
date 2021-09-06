@@ -806,21 +806,33 @@ section {
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
-  /* border:1px solid  #111; */
-  border-radius: 10px;
-  padding: 1rem;
+  border-radius: 5px;
+  padding: 1.5rem;
   background-color: rgb(246 250 255);
-  box-shadow: 11px 9px 12px rgb(142 159 161);
-
+  box-shadow: 3px 3px 8px rgb(142 159 161);
+  min-height: 350px;
+  
+  overflow: hidden;
   margin: 10px 15px 10px 15px;
+  transition: all 0.3s ease-in-out;
 }
 
 .portfolio-item img{
   width: 100px;
+  object-fit: contain;
+}
+
+/*custom hover*/
+.portfolio-item:hover{
+  box-shadow: 10px 10px 15px rgb(142 159 161);
+  min-height: 400px;
+  padding: auto;
+  z-index: 111;
+  transform: rotateZ(-1deg);
 }
 
 .portfolio #portfolio-flters {
-  padding: 0;
+  padding: 1em;
   margin: 0 auto 20px auto;
   list-style: none;
   text-align: center;
