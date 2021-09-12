@@ -112,3 +112,7 @@ form p{
 .muted-text a{
     color: rgb(221, 215, 255);
 }
+
+.white_to_black{
+    filter: invert(0.8);
+}
